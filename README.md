@@ -1,4 +1,4 @@
-# KEYWORDS AND FUNCTIONS USED TO BUILD CNN MODEL USING KERAS
+# KEYWORDS AND FUNCTIONS USED TO BUILD CNN (Convolutional Neural Networks) MODEL USING KERAS
 
 - **Convolution** : A convolution multiplies a matrix of pixels with a filter matrix or ‘kernel’ and sums up the multiplication values. Then the convolution slides over to the next pixel and repeats the same process until all the image pixels have been covered.
 - **MNIST Dataset** : This dataset consists of 70,000 images of handwritten digits from 0–9. We will identify them using a CNN model on google collab.
@@ -16,3 +16,5 @@
      - Accuracy : We will use the ‘accuracy’ metric to see the accuracy score on the validation set when we train the model.
 - `fit()` **function** : The parameters of fit() function are training data (train_X), target data (train_y), validation data, and the number of  epochs.
 - `predict()` **function** :  The predict function will give an array with 10 numbers. These numbers are the probabilities that the input image represents each digit (0–9). The array index with the highest number represents the model prediction. The sum of each array equals 1 (since each number is a probability). 
+
+I have made **CNN model** to ***recognize digits, classify flowers and distinguish between dogs and cats***. In **digit recognition** model, the accuracy was around **98%**, that was highest among all the three models. 
